@@ -4,17 +4,17 @@ A simple **language detection system** built using **Python** and **scikit-learn
 
 ## **Table of Contents**
 
-- [Features](https://www.google.com/search?q=%23features "null")
-- [Requirements](https://www.google.com/search?q=%23requirements "null")
-- [Dataset](https://www.google.com/search?q=%23dataset "null")
-- [Installation](https://www.google.com/search?q=%23installation "null")
-- [Usage](https://www.google.com/search?q=%23usage "null")
+- [Features](https://github.com/Vashu252003/Language-Detection---NLP-machine-learning?tab=readme-ov-file#features)
+- [Requirements](https://github.com/Vashu252003/Language-Detection---NLP-machine-learning?tab=readme-ov-file#requirements)
+- [Dataset](https://www.kaggle.com/datasets/basilb2s/language-detection?resource=download)
+- [Installation](https://github.com/Vashu252003/Language-Detection---NLP-machine-learning?tab=readme-ov-file#installation)
+- [Usage](https://github.com/Vashu252003/Language-Detection---NLP-machine-learning?tab=readme-ov-file#usage)
 
-  - [Train the Model](https://www.google.com/search?q=%23train-the-model "null")
-  - [Interactive Prediction](https://www.google.com/search?q=%23interactive-prediction "null")
+  - [Train the Model](https://github.com/Vashu252003/Language-Detection---NLP-machine-learning?tab=readme-ov-file#train-the-model)
+  - [Interactive Prediction](https://github.com/Vashu252003/Language-Detection---NLP-machine-learning?tab=readme-ov-file#interactive-prediction)
 
-- [Project Structure](https://www.google.com/search?q=%23project-structure "null")
-- [License](https://www.google.com/search?q=%23license "null")
+- [Project Structure](https://github.com/Vashu252003/Language-Detection---NLP-machine-learning?tab=readme-ov-file#project-structure)
+-
 
 ## **Features**
 
@@ -74,7 +74,7 @@ Example path used in the code: `data/Language Detection.csv`
     ```
 
 2.  Ensure the dataset exists in the `data/` folder.
-3.  Install Python dependencies (see [Requirements](https://www.google.com/search?q=%23requirements "null")).
+3.  Install Python dependencies (see [Requirements](https://github.com/Vashu252003/Language-Detection---NLP-machine-learning?tab=readme-ov-file#installation)).
 
 ## **Usage**
 
