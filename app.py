@@ -1,9 +1,10 @@
 import pandas as pd
+import numpy
 import re
 import string
 import joblib
 import os
-import sys  # Re-imported sys to read command-line arguments
+import sys 
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.pipeline import Pipeline
@@ -81,7 +82,6 @@ def normalize_text(text):
     # Keep letters, numbers, common punctuation, and whitespace
     allowed_chars = string.ascii_lowercase + string.digits + string.punctuation + " "
     text = "".join([c if c in allowed_chars else " " for c in text])
-
     # Collapse multiple spaces
     text = re.sub(r"\s+", " ", text).strip()
     
@@ -97,7 +97,7 @@ def predict_interactive():
         print("Please run 'python app.py train' first.")
         return
 
-    print("✅ Model loaded. You can now start predicting.")
+    print("✅ Model loaded.. You can now start predicting...")
     print("-" * 50)
 
     while True:
