@@ -78,10 +78,10 @@ def normalize_text(text):
     """
     # Convert to lowercase
     text = text.lower()
-
-    # Keep letters, numbers, common punctuation, and whitespace
-    allowed_chars = string.ascii_lowercase + string.digits + string.punctuation + " "
-    text = "".join([c if c in allowed_chars else " " for c in text])
+    
+    # Keep letters (all alphabets), numbers, punctuation, and whitespace
+    text = re.sub(r"[^\w\s" + re.escape(string.punctuation) + "]", " ", text, flags=re.UNICODE)
+    
     # Collapse multiple spaces
     text = re.sub(r"\s+", " ", text).strip()
     
